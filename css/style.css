@@ -450,6 +450,7 @@ img {
   z-index: 5;
   transition: all 0.7s;
   border-radius: 5px;
+  color: yellow;
 }
 
 .close {
