@@ -411,7 +411,7 @@ img {
 
 .gallery {
   display: none;
-  padding-top: 50px;
+  padding-top: 30px;
   height: 100%;
 }
 
@@ -510,6 +510,12 @@ img {
   }
 }
 
+@media (min-width: 940px) {
+  header {
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 1024px) {
   .grid-profiles {
     grid-template-columns: 1fr 1fr 1fr;
@@ -517,10 +523,6 @@ img {
 
   .popup-wrapper {
     width: 30%;
-  }
-
-  .gallery {
-    margin-top: 150px
   }
 }
 
