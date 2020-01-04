@@ -414,7 +414,7 @@ img {
   height: 100%;
   width: 100%;
   padding-top: 150px;
-  overflow-y: scroll;
+  
 }
 
 .gallery.active {
@@ -436,7 +436,7 @@ img {
   background-color: rgb(147, 215, 207);
   border-radius: 5px;
   animation: slit-in-diagonal-1 0.45s ease-out both;
-  
+  overflow-y: scroll;
 }
 
 .popup-content {
