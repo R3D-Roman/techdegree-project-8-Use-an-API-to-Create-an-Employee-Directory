@@ -512,8 +512,7 @@ img {
 
 @media (max-width: 940px) {
   header{
-    flex-direction: row;
-    justify-content: center;
+    flex-grow: 1;
   }
 }
 
