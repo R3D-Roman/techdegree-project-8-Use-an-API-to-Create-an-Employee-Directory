@@ -162,22 +162,22 @@ window.addEventListener("click", (e) => {
 
 });
 
-// document.addEventListener("ontouchstart", (e) => {
+document.addEventListener("touchend", (e) => {
 
-//     if (e.target.classList.contains('arrow-left')) {
-//         // left arrow
-//         left();
-//     } else if (e.target.classList.contains('arrow-right')) {
-//         // right arrow
-//         right();
-//     } else if (e.target.matches(".gallery.show.active") || e.target.classList.contains('close')) {
-//         myLightbox.classList.remove("active");
-//         myLightbox.querySelectorAll(".active").forEach(element => {
-//             element.classList.remove("active");
-//         });
-//     }
+    if (e.target.classList.contains('arrow-left')) {
+        // left arrow
+        left();
+    } else if (e.target.classList.contains('arrow-right')) {
+        // right arrow
+        right();
+    } else if (e.target.matches(".gallery.show.active") || e.target.classList.contains('close')) {
+        myLightbox.classList.remove("active");
+        myLightbox.querySelectorAll(".active").forEach(element => {
+            element.classList.remove("active");
+        });
+    }
 
-// });
+});
 
 
 
