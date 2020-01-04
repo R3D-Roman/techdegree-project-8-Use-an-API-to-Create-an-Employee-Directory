@@ -501,7 +501,7 @@ img {
   }
 }
 
-@media (max-width: 940px) {
+@media (min-width: 940px) {
   header {
     flex-direction: row;
     justify-content: space-between;
