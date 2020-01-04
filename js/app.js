@@ -162,7 +162,7 @@ window.addEventListener("click", (e) => {
 
 });
 
-document.addEventListener("touchcancel", (e) => {
+document.addEventListener("ontouchstart", (e) => {
 
     if (e.target.classList.contains('arrow-left')) {
         // left arrow
