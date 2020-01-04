@@ -163,10 +163,14 @@ window.addEventListener("click", (e) => {
 });
 
 
+
 const arrowRight = document.querySelector(".arrow-right");
-arrowRight.addEventListener("click", (e) => { 
-    right();
-});
+if(arrowRight != null) {
+    arrowRight.addEventListener("click", (e) => { 
+        right();
+    });
+}
+
 
 
 
