@@ -164,14 +164,12 @@ window.addEventListener("click", (e) => {
 
 let arrowRight = document.querySelector(".arrow-right");
  arrowRight == null;
-
+ arrowRight.addEventListener("click", (e) => { 
 if(arrowRight != null) {
     console.log(arrowRight);
-     
-    arrowRight.addEventListener("click", (e) => { 
-        right();
-    });
+      right();
 }
+    });
 
 
 
