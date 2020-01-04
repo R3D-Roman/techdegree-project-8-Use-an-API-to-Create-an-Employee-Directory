@@ -411,9 +411,8 @@ img {
 
 .gallery {
   display: none;
-  padding-top: 150px;
+  padding-top: 50px;
   height: 100%;
-  overflow-y: scroll;
 }
 
 .gallery.active {
@@ -518,6 +517,10 @@ img {
 
   .popup-wrapper {
     width: 30%;
+  }
+
+  .gallery {
+    margin-top: 150px
   }
 }
 
