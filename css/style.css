@@ -511,9 +511,9 @@ img {
 }
 
 @media (max-width: 940px) {
-  header{
+  /* header{
     flex-grow: 1;
-  }
+  } */
 }
 
 @media (min-width: 1024px) {
