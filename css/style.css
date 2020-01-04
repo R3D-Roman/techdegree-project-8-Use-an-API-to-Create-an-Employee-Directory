@@ -489,10 +489,7 @@ img {
 /* popup end */
 
 @media (min-width: 768px) {
-  header {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  
   h1 {
     text-align: left;
   }
@@ -511,9 +508,10 @@ img {
 }
 
 @media (max-width: 940px) {
-  /* header{
-    flex-grow: 1;
-  } */
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 1024px) {
