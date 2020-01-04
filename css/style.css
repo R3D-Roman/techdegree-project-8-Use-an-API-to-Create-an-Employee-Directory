@@ -462,12 +462,12 @@ img {
   z-index: 101;
 }
 
-.arrow-right:hover,
+/* .arrow-right:hover,
 .arrow-left:hover,
 .close:hover {
   cursor: pointer;
   background-color: rgb(77, 52, 117);
-}
+} */
 
 .arrow-right {
   right: -35px;
