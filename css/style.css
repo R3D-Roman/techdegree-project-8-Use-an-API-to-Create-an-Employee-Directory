@@ -433,7 +433,7 @@ img {
   padding: 15px;
   background-color: rgb(147, 215, 207);
   border-radius: 5px;
-  /* animation: slit-in-diagonal-1 0.45s ease-out both; */
+  animation: slit-in-diagonal-1 0.45s ease-out both;
   
 }
 
