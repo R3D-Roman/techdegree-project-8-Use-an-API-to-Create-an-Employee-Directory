@@ -444,7 +444,7 @@ img {
 .arrow-right,
 .arrow-left {
   position: absolute;
-  font-size: 7.5em;
+  font-size: 4.5em;
   top: 40%;
   z-index: 100;
   transition: all 0.7s;

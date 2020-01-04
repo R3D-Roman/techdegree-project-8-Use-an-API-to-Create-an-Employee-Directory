@@ -163,6 +163,11 @@ window.addEventListener("click", (e) => {
 });
 
 
+const arrowRight = document.querySelector(".arrow-right");
+arrowRight.addEventListener("click", (e) => { 
+    right();
+}
+
 
 
 // Matches for search lightbox and filter
