@@ -413,6 +413,7 @@ img {
   display: none;
   padding-top: 150px;
   height: 100%;
+  overflow-y: scroll;
 }
 
 .gallery.active {
