@@ -403,7 +403,6 @@ img {
   position: fixed;
   left: 0;
   top: 0;
-  overflow: auto;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
@@ -413,6 +412,7 @@ img {
   display: none;
   padding-top: 30px;
   height: 100%;
+  overflow-y: auto;
 }
 
 .gallery.active {
