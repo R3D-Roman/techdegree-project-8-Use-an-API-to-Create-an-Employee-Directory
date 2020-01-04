@@ -510,7 +510,7 @@ img {
   }
 }
 
-@media (min-width: 940px) {
+@media (max-width: 940px) {
   header {
     flex-direction: row;
   }
