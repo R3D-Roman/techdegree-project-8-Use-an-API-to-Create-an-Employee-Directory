@@ -414,6 +414,7 @@ img {
   background-color: inherit;
   height: 100%;
   padding-top: 150px;
+  overflow-y: scroll;
 }
 
 .gallery.active {
