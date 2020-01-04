@@ -490,13 +490,7 @@ img {
 
 @media (min-width: 768px) {
   
-  h1 {
-    text-align: left;
-  }
-
-  .input-container {
-    margin-top: 0;
-  }
+  
 
   .grid-profiles {
     grid-template-columns: 1fr 1fr;
@@ -511,6 +505,13 @@ img {
   header {
     flex-direction: row;
     justify-content: space-between;
+  }
+  h1 {
+    text-align: left;
+  }
+
+  .input-container {
+    margin-top: 0;
   }
 }
 
