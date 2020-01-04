@@ -412,7 +412,6 @@ img {
 .gallery {
   display: none;
   background-color: inherit;
-  height: 100%;
   padding-top: 150px;
 }
 
