@@ -410,8 +410,7 @@ img {
 
 .gallery {
   display: none;
-  position: relative;
-  background-color: inherit;
+  background-color: rgba(0, 0, 0, 0.2);;
   height: 100%;
   width: 100%;
   padding-top: 150px;
