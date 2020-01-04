@@ -411,7 +411,7 @@ img {
 
 .gallery {
   display: none;
-  padding-top: 100px;
+  padding-top: 150px;
   height: 100%;
 }
 
@@ -446,7 +446,7 @@ img {
   position: absolute;
   font-size: 4.5em;
   top: 40%;
-  z-index: 5;
+  z-index: 100;
   transition: all 0.7s;
   border-radius: 5px;
   color: yellow;
@@ -460,6 +460,7 @@ img {
   font-size: 1.1em;
   transition: all 0.7s;
   border-radius: 2px;
+  z-index: 101;
 }
 
 .arrow-right:hover,
