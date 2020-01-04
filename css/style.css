@@ -434,7 +434,7 @@ img {
   background-color: rgb(147, 215, 207);
   border-radius: 5px;
   animation: slit-in-diagonal-1 0.45s ease-out both;
-  
+  z-index: 120;
 }
 
 .popup-content {
