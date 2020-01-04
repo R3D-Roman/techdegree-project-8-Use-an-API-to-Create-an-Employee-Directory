@@ -511,8 +511,9 @@ img {
 }
 
 @media (max-width: 940px) {
-  header a{
-    display: block;
+  header{
+    flex-direction: row;
+    justify-content: center;
   }
 }
 
