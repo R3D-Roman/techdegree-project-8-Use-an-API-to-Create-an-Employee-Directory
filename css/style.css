@@ -271,7 +271,7 @@ body {
   font-family: "Cabin Sketch", cursive;
   font-size: 1.2em;
   letter-spacing: -1px;
-  /* position: relative; */
+  position: relative;
   background-color: lightgray;
   animation: color-change 2s linear infinite alternate both;
   height: 100%;
@@ -412,6 +412,7 @@ img {
   display: none;
   background-color: inherit;
   height: 100%;
+  width: 100%;
   padding-top: 150px;
   overflow-y: scroll;
 }
