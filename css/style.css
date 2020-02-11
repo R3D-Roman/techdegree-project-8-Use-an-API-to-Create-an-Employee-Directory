@@ -449,6 +449,7 @@ img {
   transition: all 0.7s;
   border-radius: 5px;
   color: yellow;
+  cursor: pointer;
 }
 
 .close {
@@ -460,6 +461,7 @@ img {
   transition: all 0.7s;
   border-radius: 2px;
   z-index: 101;
+  cursor: pointer;
 }
 
 /* .arrow-right:hover,
