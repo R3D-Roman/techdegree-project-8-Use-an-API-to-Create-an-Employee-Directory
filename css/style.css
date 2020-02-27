@@ -473,7 +473,7 @@ img {
   width: 80%;
   margin: 0 auto;
   position: fixed;
-  top: 80px;
+  top: 30px;
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 2;
@@ -506,6 +506,7 @@ img {
 
 .popup-content {
   width: 80%;
+  text-align: center;
 }
 
 .arrow-right,
@@ -544,10 +545,6 @@ img {
 
 .arrow-left {
   left: -25px;
-}
-
-.popup-content {
-  text-align: center;
 }
 
 .address {
