@@ -145,7 +145,7 @@ window.addEventListener("keyup", (e) => {
     }
 });
 
-window.addEventListener("click", (e) => {
+document.addEventListener("click", (e) => {
 
     if (e.target.classList.contains('arrow-left')) {
         // left arrow
