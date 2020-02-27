@@ -153,7 +153,8 @@ document.addEventListener("click", (e) => {
     } else if (e.target.classList.contains('arrow-right')) {
         // right arrow
         right();
-    } else if (e.target.matches(".gallery.show.active") || e.target.classList.contains('close')) {
+     } 
+    else if (e.target.matches("#myLightbox") || e.target.classList.contains('close')) {
         myLightbox.classList.remove("active");
         myLightbox.querySelectorAll(".active").forEach(element => {
             element.classList.remove("active");
