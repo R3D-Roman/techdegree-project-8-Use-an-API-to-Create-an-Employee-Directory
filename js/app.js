@@ -35,7 +35,7 @@ function generateHTML(data) {
         </div>
         `;
     (function(n) {
-      document.addEventListener("click", e => {
+      div.addEventListener("click", e => {
         if (e.target.classList == "show-details") {
           myLightbox.classList.add("active");
           popup(`popup${n}`);
@@ -130,7 +130,6 @@ document.addEventListener("keyup", e => {
 });
 
 document.addEventListener("click", e => {
-  console.log(e.target);
   if (e.target.classList.contains("arrow-left")) {
     // left arrow
     left();
